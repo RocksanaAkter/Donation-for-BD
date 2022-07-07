@@ -205,7 +205,7 @@ footer {
 
 }
 
-h3 {
+#be-humble {
     color: #FF5959;
     margin-bottom: -5px;
 
@@ -220,5 +220,12 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    color: #d0cdcd;
+    color: #DADADA;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'poppins';
+    font-weight: 600;
+
 }
