@@ -145,6 +145,35 @@ h2 {
     margin-top: 10%;
 }
 
+.btn button {
+    padding: 20px 40px;
+    background: transparent;
+    border: 3px solid aqua;
+    color: black;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn button::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0, 128, 51);
+    z-index: -1;
+    transition: 0.5s all ease-in-out;
+}
+
+.btn button:hover::after {
+    width: 100%;
+}
+
+
 #email {
     width: 28%;
     height: 37px;
